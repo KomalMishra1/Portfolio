@@ -1,150 +1,180 @@
-<DOCTYPE html>
+
+<!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
-<link rel="stylesheet" href="./animated.css">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<!-- <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.8/css/mdb.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+ <!-- or -->
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
-<script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script> -->
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.8/js/mdb.min.js"></script>
 
 </head>
-<body >
+<body style="font-family: 'Jua', sans-serif;">
 <a name="up"></a>
 <div class="container-fluid" style="background: linear-gradient(to bottom, #062743 27%, #c4ffdd 99%);" >
-<div class="row">
+<div class="row" style="margin-right:0px;">
 <div class="col-md-2">
 </div>
 <div class="col-md-8 text-center" style="color:white;margin-top:18rem;">
 <pre style="color:#f9f9f9">
-<h1>Hello , I am Komal Mishra</h1>
-<h2>I am a Front-End Developer</h2>
+<h2 class="wow zoomIn" style="font-family: 'Lato', sans-serif;font-size:3rem;">Komal Mishra</h2>
+<h2 class="wow zoomIn" style="font-family: 'Lato', sans-serif;"> I am a Front-End Developer</h2>
 </pre>
 <hr style="margin-top:4rem;">
-<div class="row text-center mt-5">
-<button type="button" class="btn btn-outline-light" style="margin-left:8rem;"><a href="#">Home</a></button>
-<button type="button" class="btn btn-outline-primary" style="margin-left:5rem;"><a href="#about">About</a></button>
-<button type="button" class="btn btn-outline-primary" style="margin-left:5rem;"><a href="#skills">Skills</a></button>
-<button type="button" class="btn btn-outline-primary" style="margin-left:5rem;"><a href="#projects">Project</a></button>
-<button type="button" class="btn btn-outline-primary" style="margin-left:5rem;"><a href="#contact">Contact</a></button>
+<div class="row text-center mt-5 wow fadeInUp">
+<a href="#"><button type="button" class="btn btn-outline-light" style="margin-left:3rem;">Home</button></a>
+<a href="#about"><button type="button" class="btn btn-outline-primary" style="margin-left:3rem;">About</button></a>
+<a href="#skills"><button type="button" class="btn btn-outline-primary" style="margin-left:3rem;">Skills</button></a>
+<a href="#projects"><button type="button" class="btn btn-outline-primary" style="margin-left:3rem;">Project</button></a>
+<a href="#contact"><button type="button" class="btn btn-outline-primary" style="margin-left:3rem;">Contact</button></a>
 </div>
 <!-- <button type="button" class="btn btn-lg btn-outline-danger">Know More About Me</button> -->
-<a href="#about"> <img src="images/thin-arrowheads-pointing-down.png" alt="add" style="margin-top:4rem;" ></a>
+<a href="#about"> <img src="images/angle-arrow-down.png" class="wow bounceIn" alt="add" style="margin-top:4rem;" ></a>
 </div>
 <div class="col-md-2">
 </div>
 </div>
 <hr>
 </div>
-
 <a name="about"></a><div class="container-fluid">
 <div class="row text-center">
-<div class="col-md-6 animatable bounceIn">
-<h1 style="margin-top:10rem; color:#062743;" class="text-center" >About Me</h1>
+<div class="col-md-6">
+<h1 style="margin-top:10rem; color:#062743;font-family: 'Jua', sans-serif;" class="text-center" >About Me</h1>
 <pre>
-<h5 style="margin-left:rem; color:#113a5d;">
-Hi,I'm a product designer based in sunny Sydney,
-Australia.I enjoy turning complex problems into simple,
-beautiful and intuitive designs. When I'm not coding,
-tweeting or pushing pixels,you'll find me cooking,
- gardening or working out in the park
+<h5 class="wow fadeInUp" style="margin-left:rem; color:#113a5d;font-family: 'Lato', sans-serif;font-size:1.5rem;">
+Hi,I'm a front end developer based in gurgaon,
+Haryana.I used angular , bootstrap and metrial
+design in my projects.I enjoy turning complex problems
+ into simple,beautiful and intuitive designs.I love to
+do challenging works,I love to do challenging work ,
+ in my free time i like to design.
  </h5>
  </pre>
 </div>
-<div class="col-md-6 text-center" style="margin-top:10rem;">
+<div class="col-md-6 text-center wow fadeInUp" style="margin-top:10rem;">
 <h1>photo<h1>
+  <img src="images/komal1.jpeg" class="img-fluid z-depth-1 rounded-circle" alt="Responsive image">
 </div>
 </div>
 <div class="text-center">
-<a href="#skills" class="text-center"> <img  class="text-center" src="images/thin-arrowheads-pointing-down.png" alt="add" style="margin-top:5rem;"></a>
+<a href="#skills" class="text-center"> <img  class="text-center wow bounceIn" src="images/angle-arrow-down.png" alt="add" style="margin-top:5rem;"></a>
 </div>
 <hr>
 </div>
-
-<a name="skills"></a><div class="container-fluid text-center animatable fadeInUp" style="background-color:#c4ffdd;">
+<a name="skills"></a><div class="container-fluid text-center" style="background-color:#c4ffdd;">
 <h1 style="color:#062743;">Skills</h1>
 
-<div class="row">
+<div class="row wow fadeInUp" style="font-size:1rem;">
 <div class="card ml-5 mt-5" style="width: 15rem;height:20rem;">
   <img class="card-img-top" src="images/download.png" alt="Card image cap">
   <hr>
   <div class="card-body">
 
-    <h5 class="card-text" style="color:#062743;">Worked on angular 2 , 4 and learning 6</h5>
+    <h5 class="card-text" style="color:#062743;">Working on angular 2 , 4 and learning 6 from about 7 months</h5>
   </div>
 </div>
 <div class="card ml-5 mt-5" style="width: 15rem;height:20rem;">
   <img class="card-img-top" src="images/bootstrap.jpeg" alt="Card image cap">
   <hr style="margin-top:3rem;">
   <div class="card-body">
-    <h5 class="card-text" style="color:#062743;">Worked on bootstrap 4 and material design bootstrap 4</h5>
+    <h5 class="card-text" style="color:#062743;">Working on bootstrap 4 and material design bootstrap from about 7 months</h5>
   </div>
 </div>
 <div class="card ml-5 mt-5" style="width: 15rem;height:20rem;">
   <img class="card-img-top" src="images/corejava.png" alt="Card image cap">
   <hr style="margin-top:1rem;">
   <div class="card-body">
-    <h5 class="card-text" style="color:#062743;">Learnt core java from aricent </h5>
+    <h5 class="card-text" style="color:#062743;">Learnt core java from hp training centre as well as from nalanda at Aricent </h5>
   </div>
 </div>
 <div class="card ml-5 mt-5" style="width: 15rem;height:20rem;">
   <img class="card-img-top" src="images/nodejs.jpg" alt="Card image cap">
   <hr style="margin-top:;">
   <div class="card-body">
-    <h5 class="card-text" style="color:#062743;">Worked on Node js</h5>
+    <h5 class="card-text" style="color:#062743;">Working on Node js in a project and learning as well</h5>
   </div>
 </div>
 <div class="card ml-5 mt-5 " style="width: 15rem;height:20rem;">
   <img class="card-img-top" src="images/mongod.png" alt="Card image cap">
   <hr style="margin-top:;">
   <div class="card-body">
-    <h5 class="card-text" style="color:#062743;">Worked on Node js</h5>
+    <h5 class="card-text" style="color:#062743;">Using mongoDb database in my project</h5>
+  </div>
+</div>
+<div class="card ml-5 mt-5 " style="width: 15rem;height:20rem;">
+  <img class="card-img-top" src="images/expressjs.png" alt="Card image cap">
+  <hr style="margin-top:;">
+  <div class="card-body">
+    <h5 class="card-text" style="color:#062743;">learning and working on express.js since 7 months</h5>
+  </div>
+</div>
+<div class="card ml-5 mt-5 " style="width: 15rem;height:20rem;">
+  <img class="card-img-top" src="images/python.jpg" alt="Card image cap">
+  <hr style="margin-top:;">
+  <div class="card-body">
+    <h5 class="card-text" style="color:#062743;">learning python since 2 weeks57wbr</h5>
   </div>
 </div>
 </div>
 <div class="text-center">
-<a href="#projects" class="text-center"> <img  class="text-center" src="images/thin-arrowheads-pointing-down.png" alt="add" style="margin-top:5rem;"></a>
+<a href="#projects" class="text-center"> <img  class="text-center wow bounceIn" src="images/angle-arrow-down.png" alt="add" style="margin-top:5rem;"></a>
 </div>
 <hr>
 </div>
 
-<a name="projects"></a><div class="container-fluid animated bounceInLeft" style="background-color:#c4ffdd;">
+<a name="projects"></a><div class="container-fluid" style="background-color:#c4ffdd;">
 <h1 style="color:#062743;" class="text-center">Projects</h1>
 
 <div class="row">
   <div class="col-md-2">
   </div>
   <div class="col-md-8">
-  <div class="card float-left mt-5 ">
+  <div class="card float-left mt-5 wow slideInLeft ">
   <div class="card-body">
     <h5 class="card-title">Data Flow Testing tool For java Program</h5>
     <h6 class="card-subtitle mb-2 text-muted">Duration - jun 2016 - jun 2017</h6>
-    <p class="card-text mt-4">In this Project, PSO based approach guided by the new fitness function is applied for automated structural test data generation and optimization according to data-flow dependencies of a program.
+    <p class="card-text mt-4" style="font-family: 'Lato', sans-serif;">In this Project, PSO based approach guided by the new fitness function is applied for automated structural test data generation and optimization according to data-flow dependencies of a program.
 </p>
   </div>
 </div>
-<div class="card float-left mt-5 animatable bounceInRight" style="background-color:#113a5d;color:#f9f9f9">
+<div class="card float-left mt-5 wow slideInRight">
 <div class="card-body">
   <h5 class="card-title">City Special</h5>
   <h6 class="card-subtitle mb-2 text-muted">Mar 2018 – Present </h6>
-  <p class="card-text mt-4 ">Making a city special website using MEAN (MongoDb , Express , Node and angular 2) stack to display the news in short 60 words with other features also like reporter and admin panel who can post the news and many more features.
+  <p class="card-text mt-4 " style="font-family: 'Lato', sans-serif;">Making a city special website using MEAN (MongoDb , Express , Node and angular 2) stack to display the news in short 60 words with other features also like reporter and admin panel who can post the news and many more features.
 </p>
 </div>
 </div>
-<div class="card float-left mt-5">
+<div class="card float-left mt-5 wow slideInLeft">
 <div class="card-body">
   <h5 class="card-title">TrainInfo</h5>
   <h6 class="card-subtitle mb-2 text-muted">Jul 2018 – Aug 2018</h6>
-  <p class="card-text mt-4">it is a project made on angular 4 and using railway Api using this website you can get various informations of railways . Example-train schedule, train between station ,spot your train etc.It is helpful and user friendly going to be live in some days.
+  <p class="card-text mt-4 " style="font-family: 'Lato', sans-serif;">it is a project made on angular 4 and using railway Api using this website you can get various informations of railways . Example-train schedule, train between station ,spot your train etc.It is helpful and user friendly going to be live in some days.
 </p>
- <a href="https://railwayinf.herokuapp.com" class="btn btn-primary">See Project</a>
+ <a href="https://railwayinf.herokuapp.com" class="btn btn-mdb-color">See Project</a>
 </div>
 </div>
-<div class="card float-left mt-5 mb-5">
+<div class="card float-left mt-5 mb-5 wow slideInRight">
 <div class="card-body">
   <h5 class="card-title">Interview Portal</h5>
   <h6 class="card-subtitle mb-2 text-muted">Jun 2018 – Present</h6>
-  <p class="card-text mt-4">It makes the tiring process of taking interviews easy by making everything online .You can easily rate the the person on different fields of yours with questions generated dynamically at runtime .Moreover you can see the status of his/her knowledge through graphs
+  <p class="card-text mt-4" style="font-family: 'Lato', sans-serif;">It makes the tiring process of taking interviews easy by making everything online .You can easily rate the the person on different fields of yours with questions generated dynamically at runtime .Moreover you can see the status of his/her knowledge through graphs
 
 
 </p>
@@ -155,84 +185,37 @@ tweeting or pushing pixels,you'll find me cooking,
 </div>
 </div>
 <div class="text-center">
-<a href="#contact" class="text-center"> <img  class="text-center" src="images/thin-arrowheads-pointing-down.png" alt="add" style="margin-top:5rem;"></a>
+<a href="#contact" class="text-center"> <img  class="text-center wow bounceIn" src="images/angle-arrow-down.png" alt="add" style="margin-top:5rem;"></a>
 </div>
 <hr>
 </div>
-<!-- Footer -->
 <a name="contact"></a><footer class="page-footer font-small pt-4" style="background-color:#062743;color:#c4ffdd;height:40rem;">
-    <!-- Footer Text -->
-    <div class="container-fluid text-center">
-<h2 class="text-center">Contact Me</h2>
-      <!-- Grid row -->
-        <!-- Grid column -->
-        <!-- Grid column --
-        <!-- Grid column -->
-        <p class="text-center" style="margin-top:8rem;font-size:1.5rem;">Give me a call on</p>
-        <h2>+91 8267082164<h2>
-          <p class="text-center" style="margin-top:5rem;font-size:1.5rem;">Send me a mail at</p>
-          <h2>komallokesh123@gmail.com<h2>
-      </div>
+  <div class="container-fluid text-center wow bounceInUp">
+    <h2 class="text-center">Contact Me</h2>
+    <p class="text-center" style="margin-top:8rem;font-size:1.5rem;">Give me a call on</p>
+    <h2>+91 8267082164<h2>
+    <p class="text-center" style="margin-top:5rem;font-size:1.5rem;">Send me a mail at</p>
+    <h2>komallokesh123@gmail.com<h2>
       <hr style="background-color:#c4ffdd;">
       <h4 class="text-center">Follow</h4>
-<div class="row">
-  <div class="col-md-5">
-  </div>
-    <div class="col-md-2">
-      <a href = "" > <img  class="text-center ml-5" src="images/facebook.png" alt="add" style="margin-top:1rem;"></a>
-        <a href="https://www.linkedin.com/in/komal-mishra-2b4669116/" > <img  class="text-center ml-5" src="images/linked-in-logo.png" alt="add" style="margin-top:1rem;"></a>
-      </div>
+      <div class="row">
         <div class="col-md-5">
         </div>
-      </div>
-      <!-- Grid row -->
-    <!-- Footer Text -->
+          <div class="col-md-2">
+            <a href = "https://www.facebook.com/profile.php?id=100010272636038&lst=100010272636038%3A100010272636038%3A1534061280&sk=about" > <img  class="text-center ml-5" src="images/facebook.png" alt="add" style="margin-top:1rem;"></a>
+              <a href="https://www.linkedin.com/in/komal-mishra-2b4669116/" > <img  class="text-center ml-5" src="images/linked-in-logo.png" alt="add" style="margin-top:1rem;"></a>
+            </div>
+              <div class="col-md-5">
+              </div>
+            </div>
+              </div>
+            <div class="footer-copyright text-center py-3 mt-4">© 2018 Copyright:
+              <a href="javascript.void(0)">Designed By Komal Mishra</a>
+            </div>
 
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3 mt-4">© 2018 Copyright:
-      <a href="javascript.void(0)">Designed By Komal Mishra</a>
-    </div>
-    <!-- Copyright -->
-
-  </footer>
-  <!-- Footer -->
-  <script>
-  // Trigger CSS animations on scroll.
-// Detailed explanation can be found at http://www.bram.us/2013/11/20/scroll-animations/
-
-// Looking for a version that also reverses the animation when
-// elements scroll below the fold again?
-// --> Check https://codepen.io/bramus/pen/vKpjNP
-
-jQuery(function($) {
-
-  // Function which adds the 'animated' class to any '.animatable' in view
-  var doAnimations = function() {
-
-    // Calc current offset and get all animatables
-    var offset = $(window).scrollTop() + $(window).height(),
-        $animatables = $('.animatable');
-
-    // Unbind scroll handler if we have no animatables
-    if ($animatables.length == 0) {
-      $(window).off('scroll', doAnimations);
-    }
-
-    // Check all animatables and animate them if necessary
-		$animatables.each(function(i) {
-       var $animatable = $(this);
-			if (($animatable.offset().top + $animatable.height() - 20) < offset) {
-        $animatable.removeClass('animatable').addClass('animated');
-			}
-    });
-
-	};
-
-  // Hook doAnimations on scroll, and trigger a scroll
-	$(window).on('scroll', doAnimations);
-  $(window).trigger('scroll');
-
-});
-  </script>
+</footer>
+<script>
+new WOW().init();
+</script>
 </body>
 </html>
